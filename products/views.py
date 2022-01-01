@@ -7,3 +7,5 @@ from django.shortcuts import render
 def index(request):
     return HttpResponse("Hello World")
 
+def newProducts(request):
+    return HttpResponse("New Products have arrived")
